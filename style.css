@@ -1,0 +1,131 @@
+:root {
+    --primary-color: #343a40; /* Dark Grey */
+    --secondary-color: #d9534f; /* Red */
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #f8f9fa; /* Light Grey */
+    color: var(--primary-color);
+}
+
+.portfolio-header {
+    border: 1px solid transparent; 
+    padding: 30px;
+    margin: 0px 30px;
+    display: flex;
+    padding: 8px;
+    border-radius: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; /* White */
+}
+
+.portfolio-header h1 {
+    font-family: 'Nova Square', sans-serif;
+    color: var(--secondary-color);
+}
+
+.links ul {
+    display: flex;
+}
+
+.links li {
+    margin-right: 20px;
+}
+
+.links a {
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 1.8rem;
+    transition: color 0.3s ease-in-out;
+    margin-right: 3rem;
+}
+
+.links a:hover {
+    color: var(--secondary-color);
+    background-color: #343a40;
+
+    
+}
+
+.contact-container {
+    width: 80vw;
+    padding: 30px;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: #fff; /* White */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.contact-container h2 {
+    font-family: 'Nova Square', sans-serif;
+    color: var(--secondary-color);
+}
+
+.contact-container a {
+    width: 20rem;
+    display: block;
+    margin: 10px 0;
+    font-size: 1.8rem;
+    color: #fff; /* White */
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-container a:hover {
+    background-color: #fff; /* White */
+    color: var(--secondary-color);
+}
+
+.main {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.skills-container {
+    padding: 30px;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: #fff; /* White */
+}
+
+.skills-container h2 {
+    font-family: 'Nova Square', sans-serif;
+}
+
+.skills-h2 {
+    color: var(--secondary-color);
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.skills-list li {
+    background-color: #343a40; /* Dark Grey */
+    color: #fff; /* White */
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
